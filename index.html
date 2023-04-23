@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey form</title>
+  </head>
+  <body>
+    <div class="layout-container">
+      <header class="survey-form-text-container container">
+        <h1 id="title">Survey form</h1>
+        <p id="description">
+          Please fill out this form with the required information
+        </p>
+      </header>
+      <main>
+        <section class="survey-form-container container">
+          <form action="#" id="survey-form">
+            <fieldset>
+              <label for="name" id="name-label">Your Name:</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                required
+                placeholder="Enter your name"
+              />
+              <label for="email" id="email-label">Your Email:</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                placeholder="Enter your email"
+              />
+              <label for="number" id="number-label">Your age:</label>
+              <input
+                id="number"
+                type="number"
+                name="age"
+                min="10"
+                max="100"
+                placeholder="Your age"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="dropdown">
+                Which option best describes your current role?</label
+              >
+              <select name="dropdown" id="dropdown">
+                <option value="0" disabled selected>Select an option</option>
+                <option value="1">Student</option>
+                <option value="2">Full time job</option>
+                <option value="3">Other</option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <label for="account-type">Account Type:</label>
+              <label for="normal-account"
+                ><input
+                  id="normal-account"
+                  type="radio"
+                  name="radio-button"
+                  class="inline"
+                  value="1"
+                  checked
+                />
+                Normal Account</label
+              >
+              <label for="paid-account"
+                ><input
+                  id="paid-account"
+                  type="radio"
+                  name="radio-button"
+                  class="inline"
+                  value="2"
+                />
+                Paid Account</label
+              >
+            </fieldset>
+            <fieldset>
+              <label for="checkbox">What would you like to see improved?</label>
+              <label for="1"
+                ><input
+                  type="checkbox"
+                  value="1"
+                  name="checkbox"
+                  id="form-checkbox"
+                />
+                aa</label
+              >
+              <label for="2"
+                ><input
+                  type="checkbox"
+                  value="2"
+                  name="checkbox"
+                  id="form-checkbox"
+                />
+                bb</label
+              >
+              <label for="3"
+                ><input
+                  type="checkbox"
+                  value="3"
+                  name="checkbox"
+                  id="form-checkbox"
+                />
+                cc</label
+              >
+              <label for="4"
+                ><input
+                  type="checkbox"
+                  value="4"
+                  name="checkbox"
+                  id="form-checkbox"
+                />
+                dd</label
+              >
+            </fieldset>
+            <fieldset>
+              <label for="textarea">Any comments or suggestions?</label>
+              <textarea
+                id="textarea"
+                name="textarea"
+                rows="6"
+                cols="30"
+                placeholder="Enter your comment here..."
+              ></textarea>
+            </fieldset>
+            <fieldset>
+              <input type="submit" id="submit" value="Submit" />
+            </fieldset>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

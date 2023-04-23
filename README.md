@@ -1,0 +1,2 @@
+# Project-Survey Form
+ This is a Survey Form project I built as part of the FreeCodeCamp curriculum. The project requirements included creating a responsive form that collects user input and validates the data before submitting it. I used HTML5, CSS3 to build the form. The form includes several input fields, radio buttons, checkboxes. I also included some custom CSS styles to add some visual flair and make the form more user-friendly.

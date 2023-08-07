@@ -99,9 +99,7 @@ a {
 Estilos da pagina
 */
 body {
-  background: url(https://images.pexels.com/photos/16102230/pexels-photo-16102230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
-    center center;
-  background-size: cover;
+  background-color: #181818bd;
 }
 .survey-form-text-container {
   text-align: center;
@@ -126,7 +124,7 @@ form {
   color: var(--white-1);
   font-size: 1.3rem;
   margin: 0 0 5rem 0;
-  box-shadow: 0 0 10px #08e2089c;
+  box-shadow: 0 0 10px #1313139c;
 }
 
 fieldset {
@@ -170,7 +168,7 @@ input[type="radio"] {
   margin: auto;
 }
 input[type="radio"]:checked {
-  background-color: #08e208;
+  background-color: #088be2;
 }
 
 input[type="checkbox"] {
@@ -187,7 +185,7 @@ input[type="checkbox"] {
   margin: auto;
 }
 input[type="checkbox"]:checked {
-  background-color: #08e208;
+  background-color: #088be2;
 }
 
 textarea {
@@ -198,14 +196,14 @@ textarea {
 
 input[type="submit"] {
   color: var(--white-1);
-  background-color: #1e8b1e;
+  background-color: #088be2;
   height: 40px;
   border: transparent;
   border-radius: 5px;
 }
 
 input[type="submit"]:hover {
-  background-color: #12ad12;
+  background-color: #24a3f8;
 }
 
 /*Media Queries Desktop, tablets, Tvs...*/
